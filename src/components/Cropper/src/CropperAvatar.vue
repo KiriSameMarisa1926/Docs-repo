@@ -14,11 +14,10 @@
 </template>
 <script lang="ts" setup>
 import { useDesign } from '@/hooks/web/useDesign'
-
 import { propTypes } from '@/utils/propTypes'
 import { useI18n } from 'vue-i18n'
 import CopperModal from './CopperModal.vue'
-import avatar from '@/assets/imgs/avatar.gif'
+import avatar from '@/assets/imgs/avatar.jpg'
 
 defineOptions({ name: 'CropperAvatar' })
 

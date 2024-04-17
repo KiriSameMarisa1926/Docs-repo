@@ -6,7 +6,7 @@
           <el-col :xl="12" :lg="12" :md="12" :sm="24" :xs="24">
             <div class="flex items-center">
               <el-avatar :src="avatar" :size="70" class="mr-16px">
-                <img src="@/assets/imgs/avatar.gif" alt="" />
+                <img src="@/assets/imgs/avatar.jpg" alt="" />
               </el-avatar>
               <div>
                 <div class="text-20px">
@@ -144,7 +144,7 @@
           <div v-for="(item, index) in notice" :key="`dynamics-${index}`">
             <div class="flex items-center">
               <el-avatar :src="avatar" :size="35" class="mr-16px">
-                <img src="@/assets/imgs/avatar.gif" alt="" />
+                <img src="@/assets/imgs/avatar.jpg" alt="" />
               </el-avatar>
               <div>
                 <div class="text-14px">
@@ -346,12 +346,12 @@ const barOptionsData = reactive<EChartsOption>(barOptions) as EChartsOption
 // 周活跃量
 const getWeeklyUserActivity = async () => {
   const data = [
-    { value: 13253, name: 'analysis.monday' },
-    { value: 34235, name: 'analysis.tuesday' },
-    { value: 26321, name: 'analysis.wednesday' },
-    { value: 12340, name: 'analysis.thursday' },
-    { value: 24643, name: 'analysis.friday' },
-    { value: 1322, name: 'analysis.saturday' },
+    { value: 1742, name: 'analysis.monday' },
+    { value: 1423, name: 'analysis.tuesday' },
+    { value: 19321, name: 'analysis.wednesday' },
+    { value: 2233, name: 'analysis.thursday' },
+    { value: 12643, name: 'analysis.friday' },
+    { value: 1722, name: 'analysis.saturday' },
     { value: 1324, name: 'analysis.sunday' }
   ]
   set(
